@@ -1,0 +1,6 @@
+path: C:/Users/Kushagra Agarwal/Desktop/Image-Processing/Ball Tracking/cricket_ball_data
+train: train/images
+val: valid/images
+
+names: 
+  0: cricketBall
