@@ -1,0 +1,12 @@
+names:
+- cricketBall
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: cricket_ball_detection-3ukl0
+  url: https://universe.roboflow.com/mini-project-4tpsv/cricket_ball_detection-3ukl0/dataset/1
+  version: 1
+  workspace: mini-project-4tpsv
+test: ../test/images
+train: ../train/images
+val: ../valid/images
