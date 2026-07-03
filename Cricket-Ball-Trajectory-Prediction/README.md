@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-An AI-powered Computer Vision project for detecting, tracking, and analyzing cricket ball trajectories using YOLOv8, OpenCV, and Python.
+An AI and ML-powered Computer Vision project for detecting, tracking, and analyzing cricket ball trajectories using YOLOv8, OpenCV, and Python.
 </p>
 
 ---
