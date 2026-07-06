@@ -262,8 +262,6 @@ This project was developed by:
 
 # 🙏 Acknowledgements
 
-We sincerely thank **Dr. V. Krishna Mohan**, Associate Professor, Department of Electronics and Communication Engineering, Vasavi College of Engineering, for his guidance and support throughout this project.
-
 We also acknowledge the following open-source technologies and communities:
 
 - Ultralytics YOLOv8
