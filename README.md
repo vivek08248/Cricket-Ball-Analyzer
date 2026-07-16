@@ -59,7 +59,7 @@ The system utilizes a **custom-trained YOLOv8 model** to identify the cricket ba
 ```text
 Cricket-Ball-Analyzer/
 │
-├── assets/
+├── assets/                        Result images used in this README
 │   ├── input_frame.png
 │   ├── dataset_sample.jpg
 │   ├── yolo_detection.png
@@ -68,18 +68,38 @@ Cricket-Ball-Analyzer/
 │   ├── trajectory_analysis.png
 │   └── actual_ball_path.png
 │
-├── Cricket_Ball_detection-1/
-├── images/
-├── output/
-├── videos/
+├── docs/                          Report, presentation & block diagram
+│   ├── Project_Report.pdf
+│   ├── Project_Presentation.pptx
+│   └── Block_Diagram.pdf
 │
-├── predict.py
-├── trajectory.py
-├── TESTING.py
-├── data.yaml
-├── requirements.txt
+├── Cricket_Ball_detection-1/       Roboflow-exported YOLO dataset (train/test, data.yaml)
+├── CricketBall-1/                  Raw Roboflow export (roboflow.zip)
+├── images/                         Extracted/sample frames
+├── videos/                         Input match footage
+├── output/                         Generated tracking & trajectory outputs
+├── runs/                           Ultralytics training/inference run logs
+│
+├── ball_tracking_train.py          Trains the YOLOv8 ball-detection model
+├── predict.py                      Runs detection on a video/image
+├── trajectory.py                   Trajectory prediction & analysis
+├── TESTING.py                      Test/debug script
+├── Test.py                         Additional test script
+├── Image__.py                      Image utility script
+├── modelSave.py                    Model saving/export helper
+├── youtube_video_image_extractor.py  Pulls frames from YouTube videos
+├── data.yaml                       YOLO dataset config
+├── requirements.txt                Python dependencies
 └── README.md
 ```
+
+### 📄 Documentation ([`docs/`](docs))
+
+| File | Description |
+|------|-------------|
+| [Project_Report.pdf](docs/Project_Report.pdf) | Full written project report |
+| [Project_Presentation.pptx](docs/Project_Presentation.pptx) | Project presentation slides |
+| [Block_Diagram.pdf](docs/Block_Diagram.pdf) | System block diagram |
 
 ---
 
@@ -220,17 +240,19 @@ pip install -r requirements.txt
 
 # ▶️ Usage
 
-Run the detection pipeline:
+Run the detection pipeline ([`predict.py`](predict.py)):
 
 ```bash
 python predict.py
 ```
 
-or execute the trajectory analysis:
+or execute the trajectory analysis ([`trajectory.py`](trajectory.py)):
 
 ```bash
 python trajectory.py
 ```
+
+Train the ball-detection model yourself with [`ball_tracking_train.py`](ball_tracking_train.py), or pull fresh frames from YouTube footage with [`youtube_video_image_extractor.py`](youtube_video_image_extractor.py).
 
 ---
 
