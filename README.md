@@ -273,12 +273,10 @@ Train the ball-detection model yourself with [`ball_tracking_train.py`](ball_tra
 
 This project was developed by:
 
-- **C. Vivek**
 - **B. Praneeth Reddy**
 - **G. Rohit Reddy**
+- **C. Vivek**
 
-**Department of Electronics and Communication Engineering**  
-**Vasavi College of Engineering (Autonomous), Hyderabad**
 
 ---
 
