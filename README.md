@@ -280,7 +280,7 @@ This project was developed by:
 
 ---
 
-# 🙏 Acknowledgements
+#  Acknowledgements
 
 We also acknowledge the following open-source technologies and communities:
 
